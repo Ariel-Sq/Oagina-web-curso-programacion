@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-image: url(img/centro\ 4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top -50px;
+    padding: 150px;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+}
+
+header p {
+    font-family: 'Poppins';
+}
+
+#Buscador {
+    background: url(https://cdn0.iconfinder.com/data/icons/slim-square-icons-basics/100/basics-19-32.png) no-repeat 0px 5px;
+    background-size: 24px;
+    width: 300px;
+    border: transparent;
+    border-bottom: solid 1px whitesmoke;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    color: whitesmoke;
+    position: absolute;
+    top: 30px;
+}
+
+.form {
+    padding: 100px;
+   /* padding-bottom: 80; */
+    font-family: 'Poppins';
+    background-color: #8ba3a9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: whitesmoke;
+}
+
+select {
+    background: transparent;
+    background-size: 24px;
+    width: 150px;
+    border: transparent;
+    padding: 10px 10px 10px 30px;
+    outline: none;
+    color: whitesmoke;
+    justify-content: center;
+    /*position: absolute;
+    top: 30px;*/
+}
+
+option {
+    color: black;
+    background: transparent;
+    text-align: left;
+    
+    
+}
+
+.form h2 {
+    margin-bottom: 15px;
+    margin-top: -40px;
+}
+
+footer {
+    padding: 30px;
+    background-color: #344a50;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    flex: 1; 
+    text-align: center;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer a {
+    color: antiquewhite;
+    display: block; /* Convertir en elementos de bloque */
+    margin-top: 10px;
+    text-decoration: none;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
