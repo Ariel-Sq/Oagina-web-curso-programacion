@@ -26,7 +26,12 @@ header h3 {
     width: 700px;
 }
 
-h3:hover {
+h3 a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h3 a:hover {
     color: antiquewhite;
 }
 
@@ -58,4 +63,5 @@ footer a {
 
 footer a:hover {
     color: #344a50;
+    cursor: pointer;
 }
